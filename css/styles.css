@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.header {
+  width: 100%;
+  background-color: #ffb636;
+  height: 176px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header>h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.wrapper {
+  width: 100%;
+  height: 70vw;
+  font-size: 0;
+  position: relative;
+}
+
+.wrapper:before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  right: 20%;
+  bottom: 0;
+  left: 20%;
+  background-image: url('../images/face.jpg');
+  background-position: center;
+}
+
+.box1, .box2 {
+  height: 70%;
+  width: 50%;
+  display: inline-block;
+}
+
+.box3 {
+  width: 100%;
+  height: 30%;
+}
+
+.box1 {
+  background-color: #F2F2F2;
+}
+
+.box2 {
+  background-color: #9013FE;
+}
+
+.box3 {
+  background-color: #2DC9D7;
+}
+
+.img {
+  position: absolute;
+  pointer-events: none;
+  display: none;
+}
+
+.img1 {
+  background-image: url('../images/left.png');
+  top: 0;
+  left: 20%;
+  right: 50%;
+  bottom: 30%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: 100px 0;
+}
+
+.img2 {
+  background-image: url('../images/right.jpg');
+  top: 0;
+  left: 50%;
+  right: 20%;
+  bottom: 30%;
+  background-size: 185%;
+  background-repeat: no-repeat;
+  background-position: left -97px;
+}
+
+.img3 {
+  background-image: url('../images/Tradicion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  top: 70%;
+  left: 20%;
+  right: 20%;
+  bottom: 0;
+}
+
+.box:hover .img {
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  background-color: #ffb636;
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #664815;
+  text-decoration: none;
+}
+
+.left {
+  position: absolute;
+  top: 176px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  color: white;
+}
+
+.rigth {
+  position: absolute;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  color: white;
+  background-color: blue;
+}
+
+.rigth-down {
+  width: 570px;
+  height: 628px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 2s;
+  background-color: white;
+  color: #9013FE;
+}
+
+.left-down {
+  width: 570px;
+  height: 628px;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 2s;
+  background-color: white;
+  color: black;
+}
+
+.left img {
+  width: 240px;
+  height: 240px;
+  margin-left: 22px;
+}
+
+.rigth img {
+  width: 240px;
+  height: 240px;
+  margin-left: 22px;
+}
+
+
+
+h3 {
+  position: absolute;
+  left: 70px;
+  font-size: 70px;
+  bottom: 294px;
+}
+
+h2 {
+  position: absolute;
+  right: 75px;
+  font-size: 70px;
+  color: white;
+}
+
+.img-center img {
+  margin-top: 50px;
+  width: 440px;
+  height: 220px;
+  margin-left: 66px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 70px;
+}
+
+h5 {
+  font-size: 50px;
+  position: absolute;
+  padding: 98px 40px;
+  color: white;
+}
+
+h6 {
+  font-size: 50px;
+  position: absolute;
+  right: 0;
+  color: white;
+  padding: 98px 40px;
+}
